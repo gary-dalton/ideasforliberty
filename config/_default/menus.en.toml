@@ -10,6 +10,24 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
+[[main]]
+  identifier = "raison"       # Updated identifier
+  name = "Raison d'être"      # The French display text
+  pageRef = "/posts/raison-detre" # We will rename the file to match this
+  weight = 10
+
+[[main]]
+  identifier = "posts"
+  name = "Essays"
+  pageRef = "/posts"
+  weight = 20
+
+[[main]]
+  identifier = "tags"
+  name = "Topics"
+  pageRef = "/tags"
+  weight = 30
+
 #[[main]]
 #  name = "Blog"
 #  pageRef = "posts"

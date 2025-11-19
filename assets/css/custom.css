@@ -1,0 +1,55 @@
+/* assets/css/custom.css */
+/* Import 'Libre Baskerville' (Headers) and 'Inter' (Body) */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap');
+
+:root {
+    --font-sans: 'Inter', sans-serif;       /* Clean reading for body text */
+    --font-serif: 'Libre Baskerville', serif; /* Noble headers */
+}
+
+/* Force headers to use the Serif font */
+h1, h2, h3, h4, h5, h6, .font-serif {
+    font-family: var(--font-serif) !important;
+    letter-spacing: -0.02em; /* Tighten it up for a modern look */
+}
+
+/* Make the main title massive and authoritative */
+h1 {
+    font-weight: 700;
+}
+
+/* 1. Define the Red Color Variables (Tailwind format: R G B) */
+:root {
+    --color-primary-500: 220 38 38 !important;
+    --color-primary-600: 185 28 28 !important;
+}
+
+/* 2. Force the Article Title (H1) to be Red */
+h1, .article-title, .text-2xl.font-bold {
+    color: rgb(220, 38, 38) !important;
+}
+
+/* 3. Make "Bold" text Red (Highlights key words in your manifesto) */
+strong, b {
+    color: rgb(220, 38, 38) !important;
+}
+
+/* 4. Make Blockquotes have a Red line on the left */
+blockquote {
+    border-left-color: rgb(220, 38, 38) !important;
+}
+
+/* Target links specifically inside the dark mode article body */
+.dark .prose a,
+.prose a,
+article a {
+    color: rgb(220, 38, 38) !important;
+    text-decoration-color: rgb(220, 38, 38) !important;
+    font-weight: 600; /* Make them slightly bold so the red pops */
+}
+
+/* Ensure the hover state stays red (or gets brighter) */
+.dark .prose a:hover,
+.prose a:hover {
+    color: rgb(255, 50, 50) !important; /* Slightly brighter red on hover */
+}

@@ -12,16 +12,16 @@ title = "Ideas For Liberty"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
-  # copyright = "Copy, _right?_ :thinking_face:"
+  #copyright = "Copy, _right?_ :thinking_face:"
 
-# [params.author]
-   name = "Delacroix Paine"
-   email = "DelacroixPaine@proton.me"
-#   image = "img/blowfish_logo.png"
-   imageQuality = 96
-   headline = "I'm only human"
-   bio = "Delacroix Paine writes at the intersection of passion and principle. Drawing inspiration from history's most defiant painters and uncompromising thinkers, he advocates for a liberty that is fought for, clearly reasoned, and universally applied. His work seeks to articulate the foundational ideas necessary to sustain a truly free society."
-   links = [
+[params.author]
+  name = "Delacroix Paine"
+  email = "DelacroixPaine@proton.me"
+  image = "img/delacroix.png"
+  imageQuality = 96
+  headline = "Common Sense for the Digital Age"
+  bio = "Delacroix Paine writes at the intersection of passion and principle. Drawing inspiration from history's most defiant painters and uncompromising thinkers, he advocates for a liberty that is fought for, clearly reasoned, and universally applied. His work seeks to articulate the foundational ideas necessary to sustain a truly free society."
+  links = [
      { email = "mailto:DelacroixPaine@proton.me" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
@@ -74,3 +74,4 @@ title = "Ideas For Liberty"
 #     { ko-fi = "https://ko-fi.com/username" },
 #     { codeberg = "https://codeberg.org/username"},
    ]
+
